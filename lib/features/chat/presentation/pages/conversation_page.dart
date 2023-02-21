@@ -29,6 +29,15 @@ class _ConversationPageState extends State<ConversationPage> {
   ScrollController _scrollController = ScrollController();
 
 
+
+  @override
+  void initState() {
+    _messageController.addListener(() {
+      setState(() {});
+    });
+    super.initState();
+  }
+
   @override
   void dispose() {
     _messageController.dispose();
