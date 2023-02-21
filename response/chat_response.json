@@ -1,0 +1,19 @@
+{
+  "id": "cmpl-6gdKNVubyox20cfU9KqLch91nIZfa",
+  "object": "text_completion",
+  "created": 1675618971,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nArtificial intelligence (AI) has been a popular topic in the tech world for some time now, and for good reason. AI is being used to power some of the most amazing applications we’ve ever seen, from recognizing faces to understanding commands in human language. AI has been changing the way we interact with technology already, and its potential to revolutionize how we interact with our world is only just beginning to be explored. \n\nOne of the most exciting forms of AI is",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 9,
+    "completion_tokens": 100,
+    "total_tokens": 109
+  }
+}
